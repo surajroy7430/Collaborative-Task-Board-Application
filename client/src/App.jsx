@@ -1,9 +1,11 @@
-import React from 'react'
+import { Toaster } from "./components/ui/sonner";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="min-h-screen">
+      <Toaster />
+    </div>
+  );
+};
 
-export default App
+export default App;
