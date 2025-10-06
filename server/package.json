@@ -1,0 +1,20 @@
+{
+  "name": "javascript",
+  "module": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.0"
+  }
+}
