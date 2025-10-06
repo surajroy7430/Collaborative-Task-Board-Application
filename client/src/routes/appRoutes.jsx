@@ -6,7 +6,7 @@ import PrivateRouter from "./PrivateRouter";
 import AdminDashboard from "../pages/AdminDashboard";
 import Dashboard from "../pages/Dashboard";
 
-const appRoutes = () => {
+const AppRoutes = () => {
   return (
     <Routes>
       <Route element={<PublicRouter />}>
@@ -27,4 +27,4 @@ const appRoutes = () => {
   );
 };
 
-export default appRoutes;
+export default AppRoutes;
